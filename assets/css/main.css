@@ -7,7 +7,6 @@
 */
 
 
-
 #sidebar{
 	position: fixed;
 }
@@ -36,7 +35,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;	
 	 background-position: center;
-	 height: 800px;
+	 height: 100%;
   
 
 }
@@ -3008,6 +3007,7 @@ input, select, textarea {
 
 			.split {
 				display: block;
+				
 			}
 
 				.split > * {
@@ -3342,6 +3342,9 @@ input, select, textarea {
 			}
 
 			@media screen and (max-width: 1280px) {
+
+
+				
 
 				.wrapper.fullscreen {
 					min-height: calc(100vh - 2.5em);
@@ -3970,7 +3973,9 @@ input, select, textarea {
 		}
 
 			@media screen and (max-width: 980px) {
-
+				
+				
+				
 				#intro p br {
 					display: none;
 				}
